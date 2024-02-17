@@ -1,0 +1,420 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.dark-header {
+    background-image: url('dota2background0.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-color: #333; 
+    color: #fff; 
+    padding: 15px 0; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo img {
+    max-height: 50px; 
+}
+
+.navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navigation li {
+    margin-right: 20px; 
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px; 
+}
+
+
+.navigation a:hover {
+    color: #ffcc00; 
+}
+
+
+
+.hero-section {
+    background-image: url('hero-background.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0; 
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffcc00; 
+    color: #333; 
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #e6b800; 
+}
+
+
+.about-content span {
+    font-style: italic;
+    color: #ffcc00;
+}
+
+
+.about-content .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px; 
+    margin: 0 auto;
+}
+
+
+.about-content a {
+    text-decoration: none;
+    color: #ffcc00;
+    font-weight: bold;
+}
+
+.about-content a:hover {
+    color: #fff; 
+}
+
+
+.about-section {
+    background-image: url('dota2background2.jpg');
+    background-position: center;
+    background-color: #333; 
+    color: #fff;
+    padding: 80px 0;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.key-features,
+.storyline {
+    margin-bottom: 40px;
+}
+
+.key-features h3,
+.storyline h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.key-features ul {
+    list-style: none;
+    padding: 0;
+}
+
+.key-features li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+
+
+.features-section {
+    background-image: url('dota2background3.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-color: #333; 
+    color: #fff;
+    padding: 80px 0; 
+}
+
+.features-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.feature-item {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature-item img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.feature-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.feature-item p {
+    font-size: 16px;
+}
+
+
+
+.leaderboards-section {
+    background-image: url('dota2leaderboards.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-color: #333; 
+    color: #fff;
+    padding: 80px 0; 
+}
+
+.leaderboards-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.leaderboard-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.leaderboard-table th, .leaderboard-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #555; 
+}
+
+.leaderboard-table th {
+    background-color: #555; 
+    color: #fff;
+}
+
+.leaderboard-table tbody tr:hover {
+    background-color: #555; 
+}
+
+
+.download-section {
+    background-image: url('dota2background4.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-color: #333; 
+    color: #fff;
+    padding: 80px 0; 
+}
+
+.download-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.download-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.download-button {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.download-button.windows {
+    background-color: #0078d4; 
+}
+
+.download-button.mac {
+    background-color: #0078d4; 
+}
+
+.download-button.ios {
+    background-color: #4cd964; 
+}
+
+.download-button.android {
+    background-color: #3ddc84; 
+}
+
+.download-button:hover {
+    background-color: #555; 
+}
+
+.system-requirements {
+    text-align: center;
+}
+
+.system-requirements h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.system-requirements ul {
+    list-style: none;
+    padding: 0;
+}
+
+.system-requirements li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+
+
+.trailer-section {
+    background-image: url('dota2background.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-color: #333; 
+    color: #fff;
+    padding: 80px 0;
+}
+
+.trailer-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.video-wrapper {
+    position: relative;
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); 
+}
+
+.trailer-section p {
+    font-size: 18px;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+.video-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 2;
+}
+
+
+.video-overlay::before {
+    content: '\25B6'; 
+}
+
+.dark-footer {
+    background-image: url('dota2background0.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-color: #333; 
+    color: #fff;
+    padding: 40px 0; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.footer-links li {
+    margin-right: 20px; 
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.footer-links a:hover {
+    color: #ffcc00; 
+}
+
+.legal-info p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.legal-info a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.legal-info a:hover {
+    color: #ffcc00; 
+}
+
